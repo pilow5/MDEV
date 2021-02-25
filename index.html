@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MDEV</title>
+	<link rel="icon" type="image/jpg" href="multimedia/icono.jpg">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Langar&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/2c4dc943f1.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<div class= "responsive">
+			<div class= "logo-responsive">
+				<img src="multimedia/logo.jpg">
+			</div>
+			<div class= "flex-button">
+				
+				<label for="btn-menu"><i class="fas fa-bars fa-2x"></i></label>
+			</div>
+		</div>
+		<input type="checkbox" name="menu-button" id="btn-menu">
+		<nav class= "nav">
+			<div class= "logo">
+				<img src="multimedia/logo.jpg">
+			</div>
+			<ul class = "nav__ul">
+				<li class="nav__li"><a href="#inicio">Inicio</a></li>
+				<li class="nav__li"><a href="#quien-soy">Quien Soy</a></li>
+				<li class="nav__li"><a href="#trabajos">Trabajos</a></li>
+				<li class="nav__li"><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<div class= "presentacion" id= "inicio">
+			<video src="multimedia/backgroundVideo.mp4" autoplay muted loop>
+			</video>
+			<div class="presentacion__animacion"></div>
+			<div class="separador"></div>
+			<h1><b>MANUEL SANCHEZ </b><br>
+			Desarrollador Frontend</h1>
+			<h2>"Websites should look good from the inside and out."</h2>
+			<h3>¿Necesitas ayuda con algún trabajo o tutoria?</h3>
+			<div class="presentacion__button">
+				<div class="button-1"><b>ESCRIBEME    </b><i class="fab fa-whatsapp icon-wa fa-lg"></i></div>
+				<div class="button-2"><b><a href="https://wa.me/573197869996?text=Hola,%20necesito%20ayuda%20con%20un%20trabajo." target="_blank">ESCRIBEME    </a></b><i class="fab fa-whatsapp icon-wa fa-lg"></i></div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class= "parte" id= "quien-soy">
+		<div class="container">
+			<div class= "container-item container-1"><img src="multimedia/container1.jpg"></div>
+			<div class= "container-item container-2"><p><b class="Hola">Hola</b>, soy un <b>desarrollador web Frontend</b> y estudiante de <b>ingeniería electrónica</b> cuyo único propósito es ayudarte a hacer más faciles tus estudios y a la vez que aprendas los temas que menos se te facilitan de una forma muy sencilla.</p></div>
+			<div class= "container-item container-3"><p>Puedo <b>ayudarte</b> realizando trabajos y/o dandote tutorias en <b>áreas</b> como: Programación, Circuitos eléctricos, Física, Matemáticas. Entre otras materias, para que puedas complementar tu aprendizaje <b>profesional.</b></p></div>
+			<div class= "container-item container-4"><img src="multimedia/container4.jpg"></div>
+		</div>
+	</div>
+	<div class= "parte" id="trabajos">
+		<div class= "divisor">
+		<div class="container-slider">
+		<div class="slider" id="slider">
+			<div class="slider-section">
+				<img class="slider-img" src="multimedia/html.jpg">
+				<h3>PROGRAMACION</h3>
+				<p>Aprende Desarrollo Web</p>
+				<a href="https://wa.me/573197869996?text=Hola,%20Estoy%20interesado%20en%20tus%20tutorias%20de%20desarrollo%20web." target="_blank">ESCRIBEME</a>
+			</div>
+			<div class="slider-section">
+				<img class="slider-img" src="multimedia/javascript.jpg">
+				<h3>PROGRAMACION</h3>
+				<p>Aprende JavaScript</p>
+				<a href="https://wa.me/573197869996?text=Hola,%20Estoy%20interesado%20en%20tus%20tutorias%20de%20JavaScript." target="_blank">ESCRIBEME</a>
+			</div>
+			<div class="slider-section">
+				<img class="slider-img" src="multimedia/java.jpg">
+				<h3>PROGRAMACION</h3>
+				<p>Aprende Java</p>
+				<a href="https://wa.me/573197869996?text=Hola,%20Estoy%20interesado%20en%20tus%20tutorias%20de%20Java." target="_blank">ESCRIBEME</a>
+			</div>
+			<div class="slider-section">
+				<img class="slider-img" src="multimedia/circuitos.jpg">
+				<h3>TEORIA</h3>
+				<p>Aprende Circuitos</p>
+				<a href="https://wa.me/573197869996?text=Hola,%20Estoy%20interesado%20en%20tus%20tutorias%20de%20circuitos." target="_blank">ESCRIBEME</a>
+			</div>
+			<div class="slider-section">
+				<img class="slider-img" src="multimedia/fisica.jpg">
+				<h3>TEORIA</h3>
+				<p>Aprende Física</p>
+				<a href="https://wa.me/573197869996?text=Hola,%20Estoy%20interesado%20en%20tus%20tutorias%20de%20fisica." target="_blank">ESCRIBEME</a>
+			</div>
+		</div>
+		<div class="slider__btn slider-right" id="btn-right">&#62;</div>
+		<div class="slider__btn slider-left" id="btn-left">&#60;</div>
+	</div>
+
+	</div>
+	</div>
+	<div class= "parte" id="contacto">
+		<div class="flex-container">
+			<div class="titulo-form">
+				ESCRIBEME A MI CORREO
+			</div>
+			<form class="form">
+				<div class="form__section">
+					<input type="text" class="form__input" placeholder="Nombre: " required=" ">
+				</div>
+				<div>
+					<input type="text" class="form__input" placeholder="Asunto: " required=" ">
+				</div>
+				<div>
+					<textarea class="form__input" placeholder="Escriba su mensaje: " required=" "></textarea>
+				</div>
+				<div>
+					<input type="submit" class="form__input" id="enviar">
+				</div>
+			</form>
+
+			<div class="form-img">
+				<div><a href="https://wa.me/573197869996?text=Hola,%20vi%20tu%20página%20web%20y%20estoy%20interesado%20en..." target="_blank"><i class="fab fa-whatsapp ws"></i></a>
+					<a href="https://www.instagram.com/manuel.sanchz/" target="_blank"><i class="fab fa-instagram ins"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=100023011114302" target="_blank"><i class="fab fa-facebook-f fs"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<script src="codigo.js"></script>
+</body>
+</html>
